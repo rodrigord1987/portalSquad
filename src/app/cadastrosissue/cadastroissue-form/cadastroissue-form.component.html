@@ -1,0 +1,57 @@
+<form (ngSubmit)="onSave()" #f="ngForm"></form>>
+  
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="form-group col-lg-3 col-md-4 col-sm-5 col-xs-12">
+        <label class="control-label" for="usuario">Usuário</label>
+        <input class="form-control" type="text" id="usuario" name="usuario">
+      </div>  
+    </div>  
+  </div>  
+  
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="form-group col-lg-3 col-md-4 col-sm-5 col-xs-12">
+        <label class="control-label" for="issue">Issue</label>
+        <input class="form-control" type="text" id="issue" name="issue">
+      </div>  
+    </div>  
+  </div>  
+  
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="form-group col-lg-3 col-md-4 col-sm-5 col-xs-12">
+        <label class="control-label" for="fonte">Fonte</label>
+        <input class="form-control" type="text" id="fonte" name="fonte">
+      </div>  
+    </div>  
+  </div>  
+  
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="form-group col-lg-3 col-md-4 col-sm-5 col-xs-12">
+        <label class="control-label" for="versao">Versão</label>
+        <input class="form-control" type="text" id="versao" name="versao">
+      </div>  
+    </div>  
+  </div>   
+
+  <div class="row ">
+    <div class="col-sm-12">
+      <div class="form-group col-lg-3 col-md-4 col-sm-5 col-xs-12">
+        <label class="control-label" for="data_commit">Data</label>
+        <input class="form-control" type="date" id="data_commit" name="data_commit">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="form-group col-lg-3 col-md-4 col-sm-5 col-xs-12">
+        <button class="btn btn-danger glyphicon glyphicon-erase" type="button"> Cancelar</button>
+        <button class="btn btn-primary glyphicon glyphicon-ok" type="submit"> Salvar</button>
+      </div>
+    </div>               
+  </div>
+
+</form>
